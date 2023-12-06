@@ -2,7 +2,6 @@ import { fetchEmployeeData } from './modules/init.js';
 
 // GET DOM ELEMENTS
 let empTable    = document.getElementById('employees')
-let empCount    = document.querySelector('#empCount')
 
 async function buildGrid() {
     try {
